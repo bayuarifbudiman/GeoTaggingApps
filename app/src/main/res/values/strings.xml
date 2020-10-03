@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tanggap Darurat</string>
+    <string name="emergency">EMERGENCY</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="register">Register</string>
+    <string name="already_have_account_login_here">Already Have Account? Login Here</string>
+    <string name="welcome">Welcome!</string>
+    <string name="logout">Logout</string>
+    <string name="Tanggap_Darurat">Darurat</string>
+    <string name="pilihan_keadaan">Pilihan Keadaan</string>
+    <string name="keadaan">Keadaan</string>
+
+    <string-array name="list_pilihan_keadaan">
+        <item>Tanggap Bencana</item>
+        <item>Panggilan Darurat</item>
+    </string-array>
+</resources>

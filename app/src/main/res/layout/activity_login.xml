@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emergency"
+        android:textColor="@color/merah"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="396dp"
+        android:layout_height="41dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:autofillHints=""
+        android:background="@color/merah"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="396dp"
+        android:layout_height="43dp"
+        android:background="@color/merah"
+        android:ems="10"
+        android:hint="@string/password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:layout_below="@+id/Email"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_below="@id/Password"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:textColor="#090909"
+        android:layout_below="@id/Login"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kamera">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Loccation"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Latitude"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:text="Longitude"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1">
+
+        <TextView
+            android:layout_below="@id/button"
+            android:id="@+id/latitude"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_below="@id/latitude"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/seemaps"
+        android:layout_below="@id/linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="See GMaps"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seemaps"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/merah"/>
+    <TextView
+        android:id="@+id/textupload"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Page"
+        android:layout_below="@+id/seemaps"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ambulance"
+        android:text="Ambulance"
+        android:layout_below="@id/textupload"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/polisi"
+        android:text="Police"
+        android:layout_below="@id/textupload"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pemadam"
+        android:text="Pemadam"
+        android:layout_below="@id/polisi"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SAR"
+        android:text="SAR"
+        android:layout_below="@id/polisi"
+        android:layout_marginLeft="30dp"/>
+
+
+
+</RelativeLayout>

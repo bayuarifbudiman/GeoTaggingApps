@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179449406588",
+    "firebase_url": "https://tanggap-darurat-73db5.firebaseio.com",
+    "project_id": "tanggap-darurat-73db5",
+    "storage_bucket": "tanggap-darurat-73db5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179449406588:android:4a74383546d95867fd95f9",
+        "android_client_info": {
+          "package_name": "com.example.tanggapdarurat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179449406588-oj2eiq1spjb3jr8tu59sp854m3qfj3f6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanggapdarurat",
+            "certificate_hash": "4745741b3c153e3d2710e2d9b806f7c13501f574"
+          }
+        },
+        {
+          "client_id": "179449406588-v2beg1etue4bbsf8ta3h51l5d6j8vumm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5pnYngNNmjSShO9L8ifX9Yauc-th6SQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179449406588-v2beg1etue4bbsf8ta3h51l5d6j8vumm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
